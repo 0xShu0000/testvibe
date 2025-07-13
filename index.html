@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIプログラミング学習コミュニティ「TestVibe」</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        #hero {
+            min-height: 400px;
+            background: #333 url('https://via.placeholder.com/1500x400') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #hero h2 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #hero p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 40px 0;
+            border-bottom: 1px #ddd solid;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        .feature-box {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        .feature {
+            width: 30%;
+            min-width: 250px;
+            margin-bottom: 20px;
+        }
+        #curriculum ul {
+            list-style: none;
+            padding: 0;
+        }
+        #curriculum li {
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #0779e4;
+        }
+        blockquote {
+            border-left: 5px solid #ddd;
+            padding-left: 15px;
+            margin-left: 0;
+        }
+        cite {
+            display: block;
+            text-align: right;
+            margin-top: 5px;
+        }
+        #cta {
+            background: #0779e4;
+            color: #fff;
+            text-align: center;
+            border-bottom: none;
+        }
+        #cta h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background: #ff6f61;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #e65a50;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        @media(max-width: 768px){
+            .feature-box, #hero h2 {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                width: 80%;
+            }
+            #hero h2 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AIプログラミング学習コミュニティ「TestVibe」</h1>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>未来を創るAIスキルを、仲間と共に。</h2>
+            <p>TestVibeは、AIプログラミングを実践的に学び、成長し続けるためのコミュニティです。</p>
+            <a href="#cta" class="button">今すぐ参加する</a>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="section-title">TestVibeの3つの特徴</h2>
+            <div class="feature-box">
+                <div class="feature">
+                    <h3>実践的なカリキュラム</h3>
+                    <p>現場で通用するスキルが身につく、プロジェクトベースの学習を提供します。</p>
+                </div>
+                <div class="feature">
+                    <h3>現役エンジニアのサポート</h3>
+                    <p>経験豊富なメンターが、あなたの学習を徹底的にサポートします。</p>
+                </div>
+                <div class="feature">
+                    <h3>切磋琢磨できる仲間</h3>
+                    <p>同じ目標を持つ仲間と繋がり、モチベーションを維持しながら学べます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="section">
+        <div class="container">
+            <h2 class="section-title">学べること</h2>
+            <ul>
+                <li>Pythonによるデータ分析・機械学習の基礎</li>
+                <li>深層学習（ディープラーニング）の実装（TensorFlow/PyTorch）</li>
+                <li>自然言語処理、画像認識などの応用技術</li>
+                <li>Web API開発とAIモデルのデプロイ</li>
+                <li>チームでのアジャイル開発手法</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">参加者の声</h2>
+            <blockquote>
+                <p>"独学では挫折していましたが、TestVibeの仲間とメンターのおかげで、AIアプリを開発できました！"</p>
+                <cite>- 30代・Webデザイナー</cite>
+            </blockquote>
+            <blockquote>
+                <p>"体系的なカリキュラムで、断片的な知識が繋がりました。転職にも成功しました。"</p>
+                <cite>- 20代・営業職</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">料金プラン</h2>
+            <div class="feature-box">
+                <div class="feature">
+                    <h3>月額プラン</h3>
+                    <p><strong>19,800円</strong> / 月</p>
+                    <p>気軽に始めたい方向け</p>
+                </div>
+                <div class="feature">
+                    <h3>年間プラン</h3>
+                    <p><strong>198,000円</strong> / 年</p>
+                    <p>2ヶ月分お得！じっくり学びたい方向け</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">よくある質問</h2>
+            <div>
+                <h4>Q. プログラミング初心者でも大丈夫ですか？</h4>
+                <p>A. はい、大丈夫です。基本的なPC操作ができれば、ゼロから学べるカリキュラムを用意しています。</p>
+            </div>
+            <div>
+                <h4>Q. どのような支払い方法がありますか？</h4>
+                <p>A. クレジットカード決済に対応しています。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="section">
+        <div class="container">
+            <h3>さあ、あなたもAIエンジニアへの第一歩を踏み出そう。</h3>
+            <a href="#" class="button">コミュニティに参加する</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TestVibe. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
