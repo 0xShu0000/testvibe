@@ -146,6 +146,33 @@
         #fp-nav ul li a span, .fp-slidesNav ul li a span {
             background: #333 !important;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            #section-home h1 {
+                font-size: 36px;
+            }
+            #section-home p {
+                font-size: 18px;
+            }
+            .section-title {
+                font-size: 32px;
+            }
+            .feature-box, .price-box {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature, .price-box {
+                width: 80%;
+                margin-bottom: 30px;
+            }
+            .price-box {
+                margin: 15px 0;
+            }
+            #section-curriculum ul {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 <body>
